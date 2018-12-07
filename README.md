@@ -1,5 +1,6 @@
 # KAIST-albabot
-Ara에 새로운 알바 소식이 올라오면 텔레그램으로 알려줍니다  
+Ara에 새로운 알바 소식이 올라오면 텔레그램으로 알려주는 서비스입니다.   
+This is a telegram service that notifies you when news of a new part-time job is posted in Ara.  
 
 <br>
 
@@ -19,14 +20,14 @@ Install python dependency libraries. `KAIST-albabot` is compatible with Python 3
 
 <br>
 
-KAIST-albabot needs telegram bot API, and telegram @BotFather will provide it.   
-Refer [here](https://core.telegram.org/bots/api).
+`KAIST-albabot` needs telegram bot API, and telegram @BotFather will provide it.   
+If you're not familiar with telegram bot, see [here](https://core.telegram.org/bots/api).
 
 <br>
 
 # Getting started
  
-`kaist-albabot.py` needs bot API number. fill it up manually. 
+`kaist-albabot.py` needs bot API number. Fill it up manually. 
 After that, add kaist-albabot.py to crontab.  
 
     $ crontab -e
