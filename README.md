@@ -20,14 +20,15 @@ Install python dependency libraries. `KAIST-albabot` is compatible with Python 3
 
 <br>
 
-`KAIST-albabot` needs telegram bot API, and telegram @BotFather will provide it.   
+`KAIST-albabot` needs telegram bot API, and telegram `@BotFather` will provide it.   
 If you're not familiar with telegram bot, see [here](https://core.telegram.org/bots/api).
 
 <br>
 
 # Getting started
  
-`kaist-albabot.py` needs bot API number. Fill it up manually. 
+As I mentioned above, `kaist-albabot.py` needs bot API number.   
+Fill it to the blank space of *line 86 in kaist_albabot.py* manually.  
 After that, add kaist-albabot.py to crontab.  
 
     $ crontab -e
